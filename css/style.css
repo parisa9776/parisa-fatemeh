@@ -54,8 +54,8 @@ header nav ul li a {
     object-fit: cover;
     object-position: center;
     transition: all .5s;
-    /* opacity: 0;
-    visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
 }
 
 .slider i {
@@ -82,7 +82,7 @@ header nav ul li a {
     right: 2%;
 }
 
-.active {
-    opacity: 1;
-    visibility: visible;
+.active{
+    opacity: 1 !important;
+    visibility: visible !important;
 }
